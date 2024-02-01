@@ -1,0 +1,126 @@
+:root {
+  --bs-link-color: #653208;
+  --bs-link-hover-color: #984c0c;
+  
+}
+
+main {
+  margin-top: 4rem;
+  
+}
+
+.navbar a {
+  color: #653208;
+}
+
+.navbar a:hover {
+  color: #984c0c;
+  font-weight: 500;
+}
+.btn {
+  --bs-btn-bg:#984c0c;
+  --bs-btn-border-color: #984c0c;
+  --bs-btn-hover-bg: #653208;
+  --bs-btn-hover-border-color:#653208;
+  --bs-btn-active-bg:#653208;
+  --bs-btn-active-border-color:#653208;
+  transition: ease-in-out .3s;
+}
+section {
+  scroll-margin-top: 6rem;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img{
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgb(31, 31, 31));
+  position: absolute;
+}
+
+.card-menu {
+  transition: ease-in-out .5s;
+}
+
+.card-menu:hover {
+  box-shadow: 1px 1px 12px  rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  border: .1rem solid #A28A74;
+}
+
+.card-menu img {
+  max-width: 550px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-body {
+  height: 235px;
+}
+
+.card-title {
+  color: #984c0c;
+}
+
+.logotipo {
+  width: 100px;
+}
+
+.logo-link img{
+ width: 35px;
+}
+
+footer img {
+width: 25px;
+}
+
+footer h4 {
+  color: #C87137;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*-- Estilizando o botao Conhecer --*/
+
+.coffee {
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.9);
+
+  /*animation*/
+  animation: interattive 2.2s linear infinite alternate;
+}
+
+@keyframes interattive {
+  0%{
+    transform: rotate(0);
+  }
+  15% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  35% {
+    transform: rotate(-10deg);
+  }
+  40%, 100% {
+    transform: rotate(0);
+  }
+}

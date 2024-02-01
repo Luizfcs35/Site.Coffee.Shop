@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <!--Favicons-->
+    <link rel="icon" type="image/png" href="./assets/images/coffe.png" sizes="35x35">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coffe Shop</title>
+    <!--Bootstrap CDN -->
+    <link     
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+
+  <body>
+    <!---Navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary 
+      fixed-top fs-5 fst-italic">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#logo">
+          <img src="./assets/images/coffe.png" alt="coffe shop logo" 
+          width="50px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle 
+          navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" 
+              href ="#top">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre Nós</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#menu">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#local">Local</a>
+            </li>
+          </ul>
+          <form class="d-flex px-2" role="search">
+            <input class="form-control me-2" type="search" 
+              placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-success px-3 d-flex 
+                align-items-center"
+                type="submit">
+                <img class="mx-2" src="./assets/icons/search.svg" alt="search" width="20">
+                Buscar
+              </button>               
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!---Carousel-->
+      <section id="carouselExampleCaptions" class="carousel slide py-3">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" 
+            data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1">
+          </button>
+          <button type="button" data-bs-target="#carouselExampleCaptions"       
+           data-bs-slide-to="1"
+            aria-label="Slide 2">
+          </button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" 
+            data-bs-slide-to="2"
+            aria-label="Slide 3">
+          </button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf"
+              class="d-block w-100" alt="graos">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>"Hora do Café!</h5>
+              <p> Sinta o aroma irresistível que paira no ar enquanto
+                preparamos  sua xícara perfeita. Do expresso
+                encorpado
+                ao cappuccino cremoso, estamos aqui para tornar seu dia ainda  
+                mais especial."</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1604025042047-749639ab8a14"
+              class="d-block w-100" alt="cantinho">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>"Bem-vindo à nossa cafeteria!</h5>
+              <p>Desperte seus sentidos com nossos cafés artesanais, 
+                feitos com grãos cuidadosamente selecionados.
+                Deixe-nos
+                transformar sua pausa em um momento de prazer único."
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1510972527921-ce03766a1cf1?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="d-block w-100" alt="cafeteria">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>"Recarregue suas energias! </h5>
+              <p> Na correria do dia a dia, reserve um momento para si 
+                mesmo(a)  em nossa cafeteria. Deixe nossas bebidas
+                quentes e deliciosos petiscos recarregarem suas energias e  
+                inspirarem sua jornada."</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" 
+          data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" 
+          data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">
+          </span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+
+      <!--Citação-->
+      <figure>
+        <blockquote class="blockquote mt-5">
+          <h3 class="text-center fst-italic fw-lighter">
+            O amor é um café às oito  da manhã numa segunda."</h3>
+        </blockquote>
+        <figcaption class="blockquote-footer text-center mt-1">
+          <cite title="Source Title">Coffee Shop</cite>
+        </figcaption>
+      </figure>
+
+      <!--About cards-->
+      <section id="about" class="container mt-5">
+        <div class="row">
+          <!--card One-->
+          <div class="col-lg-6 col-md-12 my-auto">
+            <div class="card mb-3 mx-auto shadow">
+              <div class="row g-0">
+                <div class="col-md-4 d-flex">
+                  <img
+                    src="https://images.unsplash.com/photo-1515592358511-813d36dc9eca?q=80&w=1287&auto=format&fit=crop&ixlib=rb-  4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="img-fluid rounded" alt="arte de café">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">
+                      Somos Apaixonados por  Café
+                    </h4>
+                    <h6 class="card-subtitle text-center my-3 fst-italic">
+                      Acreditamos que o café pode mudar o (seu) mundo.
+                    </h6>
+                    <!-- Button modal saiba mais -->
+                    <div class="d-flex text-center m-5">
+                      <button type="button"
+                        class="btn btn-primary m-auto"
+                        data-bs-toggle="modal" data-bs-target="#aboutModalOne">
+                        Saiba Mais!
+                      </button>
+                    </div>
+                    
+                      <!-- Modal -->
+                    <div class="modal fade" id="aboutModalOne" tabindex="-1" 
+                        aria-labelledby="aboutModalOne" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" 
+                              id="about">Somo Apaixonados por Café
+                            </h1>
+                            <button type="button" class="btn-close" 
+                              data-bs-dismiss="modal" aria-label="Close">
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="card-text fs-5">
+                              <small class="text-body-secondary">
+                                  Seja  bem-vindo ao nosso espaço acolhedor, 
+                                  onde cada aroma conta uma história e cada 
+                                  gole é uma experiência. Aqui, mergulhe em um 
+                                  mundo de cafés cuidadosamente selecionados e 
+                                  bebidas artesanais. 
+                                  Deixe-se envolver pela atmosfera aconchegante 
+                                  e pelos sabores que despertam os sentidos.
+                              </small>
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" 
+                              data-bs-dismiss="modal">Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--card Two-->
+          <div class="col-lg-6 col-md-12">
+            <div class="card mb-3 mx-auto shadow">
+              <div class="row g-0">
+                <div class="col-md-4 d-flex">
+                  <img
+                    src="https://images.unsplash.com/photo-1517701848373-805868efd0ac?q=80&w=1287&auto=format&fit=crop&ixlib=rb-  4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="img-fluid rounded" alt="café expresso">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title text-center">
+                      Equipe Premium de  Baristas</h4>
+                    <h6 class="card-subtitle text-center my-3 fst-italic">
+                      Não  servimos apenas café, servimos experiências.
+                    </h6>
+                   
+                    <!-- Button modal saiba mais -->
+                    <div class="d-flex text-center m-5">
+                      <button type="button"
+                        class="btn btn-primary m-auto"
+                        data-bs-toggle="modal" data-bs-target="#aboutModalTwo">
+                        Saiba Mais!
+                      </button>
+                    </div>
+                      <!-- Modal -->
+                    <div class="modal fade" id="aboutModalTwo" tabindex="-1" 
+                      aria-labelledby="aboutModalTwo" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" 
+                            id="about">Equipe Premium de 
+                            Baristas
+                            </h1>
+                            <button type="button" class="btn-close" 
+                            data-bs-dismiss="modal" aria-label="Close">
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p class="card-text">
+                              <small class="text-body-secondary fs-5">
+                              Nossos baristas estão aqui para transformar
+                              cada xícara em um momento especial,
+                              cuidadosamente 
+                              preparado para satisfazer seus sentidos e
+                              elevar seu dia. Seja bem-vindo ao nosso mundo de
+                              aromas, 
+                              sabores e sorrisos. Estamos ansiosos para criar
+                              a sua próxima experiência memorável!"
+                              </small>
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" 
+                              data-bs-dismiss="modal">Close
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Menu-->
+      <section id="menu" class="container my-5">
+        <ul class="nav nav-tabs  fs-5" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active fst-italic" id="espresso-tab" data-bs-toggle="tab" data-bs-target="#espresso-tab-pane" type="button" role="tab" aria-controls="espresso-tab-pane" aria-selected="true">
+              Expressos
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fst-italic" id="cappuccino-tab" data-bs-toggle="tab" data-bs-target="#cappuccino-tab-pane" type="button" role="tab" aria-controls="cappuccino-tab-pane" aria-selected="false">
+              Cappucinos
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fst-italic" id="iced-coffee-tab" data-bs-toggle="tab" data-bs-target="#iced-coffee-tab-pane" type="button" role="tab" aria-controls="iced-coffee-tab-pane" aria-selected="false">
+              Gelados
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link fst-italic" id="specials-coffee-tab" data-bs-toggle="tab" data-bs-target="#specials-coffee-tab-pane" type="button" role="tab" aria-controls="specials-coffee-tab-pane" aria-selected="false">
+              Especiais
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="coffeeTabContent">
+          <div class="tab-pane fade show active my-3" id="espresso-tab-pane"       
+            role="tabpanel" aria-labelledby="espresso-tab" 
+            tabindex="0">
+            
+            <!-- coffee cards Expressos-->
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 my-3">
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1510422877342-80dc5ea91c5c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café simples">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">
+                      Café Expresso Simples
+                    </h5>
+                    <p class="card-text">R$ 8,00</p>
+                    <p class="card-text text-muted">Com seu creme dourado e 
+                      aroma 
+                      irresistível, o expresso simples é um verdadeiro deleite 
+                      para os amantes do café.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1500338900354-9860a96df6ab?q=80&w=1424&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café duplo">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Café Expresso Duplo</h5>
+                    <p class="card-text">R$ 10,00</p>
+                    <p class="card-text text-muted">Ideal para aqueles que 
+                      buscam uma dose 
+                      extra de energia e 
+                      sabor em cada gole.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1492158244976-29b84ba93025?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café gourmet">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Café Expresso 
+                      Gourmet</h5>
+                    <p class="card-text"> 
+                     R$ 14,00
+                    </p>
+                    <p class="card-text text-muted"> 
+                      Cada xícara de expresso gourmet é uma jornada de 
+                      prazer e sofisticação.
+                     </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1496784056191-9da98036385b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café late macchiato">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Late Macchiato</h5>
+                    <p class="card-text">R$ 17,00</p>
+                    <p class="card-text text-muted">O Latte Macchiato
+                       perfeito reside na técnica de verter o leite sobre o 
+                       expresso, resultando em uma bebida visualmente 
+                       deslumbrante e com uma harmonia de sabores equilibrada.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="cappuccino-tab-pane" 
+            role="tabpanel" aria-labelledby="cappuccino-tab" 
+            tabindex="0">
+            
+            <!--coffee cards Cappuccinos-->
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 my-3">
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1516743619420-154b70a65fea?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="cappuccino classico">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">
+                      Cappuccino Clássico
+                    </h5>
+                    <p class="card-text">R$ 10,00</p>
+                    <p class="card-text text-muted">Intenso e cremoso, uma dose 
+                      equilibrada de espresso e leite vaporizado, coberto com
+                      espuma de leite.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1466337105551-aa3ab7890939?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="cappuccino chocolate">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Cappuccino de Chocolate </h5>
+                    <p class="card-text">R$ 12,00</p>
+                    <p class="card-text text-muted">Uma indulgência 
+                      reconfortante, combinação perfeita de expresso, leite 
+                      vaporizado e calda de
+                      chocolate.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu ">
+                  <img src="https://images.unsplash.com/photo-1475566718667-b6fe2e251c6b?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="cappuccino caramelo">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">
+                      Cappuccino de Caramelo
+                    </h5>
+                    <p class="card-text"> 
+                     R$ 14,00
+                    </p>
+                    <p class="card-text text-muted"> 
+                      Uma doce tentação, expresso suave misturado com leite
+                      vaporizado e um toque de caramelo dourado.
+                     </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1543393786-6d1d6014868d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café late macchiato">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">
+                      Cappuccino Especiarias:</h5>
+                    <p class="card-text">R$ 16,00</p>
+                    <p class="card-text text-muted"> Uma explosão de sabores, expresso robusto, leite vaporizado e uma pitada de canela e noz-moscada.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="iced-coffee-tab-pane" 
+            role="tabpanel" aria-labelledby="iced-coffee-tab" 
+            tabindex="0">
+            
+            <!--coffee cards Gelados-->
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 my-1">
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1620360289812-0abdae69d6d2?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café gelado clássico">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">
+                      Café Gelado Clássico: 
+                    </h5>
+                    <h6 class="card-text">R$ 12,00</h6>
+                    <p class="card-text text-muted">Refrescante e encorpado,
+                      expresso suave combinado com gelo e um toque de creme.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1569186600496-67c1790a889f?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café Gelado de Baunilha">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">
+                      Café Gelado de Baunilha: 
+                    </h5>
+                    <p class="card-text">R$ 14,00</p>
+                    <p class="card-text text-muted">Delicadamente doce, 
+                      expresso refrescante misturado com leite gelado e aroma 
+                      de baunilha.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  class="card-img-top" alt="café Gelado Mocha">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">
+                      Café Gelado Mocha: 
+                    </h5>
+                    <p class="card-text"> 
+                     R$ 16,00
+                    </p>
+                    <p class="card-text text-muted"> 
+                      Uma indulgência cremosa, expresso intenso harmonizado com 
+                      chocolate e leite gelado.
+                     </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1570470752074-34141d4159be?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café  Gelado de Amêndoa">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">
+                      Café Gelado de Amêndoa: 
+                    </h5>
+                    <p class="card-text">R$ 18,00</p>
+                    <p class="card-text text-muted">Uma explosão de sabores, expresso equilibrado com leite gelado e um toque de amêndoa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="specials-coffee-tab-pane" 
+            role="tabpanel" aria-labelledby="specials-coffee-tab" 
+            tabindex="0">
+            
+            <!--coffee cards Especiais-->
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4 my-1">
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1589786742185-2b1da4a561b3?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café dalgona">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Café Dalgona: </h5>
+                    <p class="card-text">R$ 20,00</p>
+                    <p class="card-text text-muted">Uma combinação celestial de 
+                      café instantâneo, açúcar e água batidos até a perfeição, 
+                      servidos sobre leite gelado para uma experiência 
+                      refrescante e deliciosa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1627998792088-f8016b438988?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café vienense">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Café Vienense: </h5>
+                    <p class="card-text">R$ 22,00</p>
+                    <p class="card-text text-muted">Uma elegante mistura de 
+                      café, chantilly e chocolate, uma indulgência requintada 
+                      para os paladares sofisticados.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1515701238541-0cb8d3165120?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café irish">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Café Irish: </h5>
+                    <p class="card-text"> 
+                     R$ 24,00
+                    </p>
+                    <p class="card-text text-muted"> 
+                      Uma combinação irresistível de café, uísque irlandês e 
+                      creme, para aquecer a alma e alegrar o coração.
+                     </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-menu">
+                  <img src="https://images.unsplash.com/photo-1696522692156-0026dd8cfeb2?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="café affogatto">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">Affogato: </h5>
+                    <p class="card-text">R$ 24,00</p>
+                    <p class="card-text text-muted">Uma harmonia perfeita entre 
+                      café espresso e sorvete, uma sobremesa decadente para os 
+                      apreciadores do prazer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal -->
+      <section id="local" class="container text-center mt-5">
+        <!-- Button trigger modal -->
+        <button type="button" class="coffee btn btn-success my-5 p-3 fs-5" data-bs-toggle="modal"
+         data-bs-target="#exampleModal">
+        Quero conhecer Coffee Shop
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" 
+          aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Estamos te esperando!
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" 
+                aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!--Endereço-->
+                <p>
+                  Estamos localizado na Rua dos Lobos, nº 76 - Bairro do Lago 
+                  São Paulo-SP
+                </p>
+                <p>
+                  <iframe id="map-canvas" class="map_part" width="450"
+                  height="450"  frameborder="0" scrolling="no" marginheight="0"
+                  marginwidth="0" src="https://maps.google.com/maps?
+                  width=100%&amp;height=100%&amp;hl=en&amp;q=sao
+                  paulo&amp;t=&amp;
+                  z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                  Powered by 
+                  <a href="https://www.googlemapsgenerator.com">
+                    embed google maps html
+                  </a>
+                   and 
+                  <a href="cancelgamstop.com/">
+                    can you undo gamstop</a>
+                  </iframe></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" 
+                  data-bs-dismiss="modal">
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="container-fluid  bg-dark p-5 text-light text-center">
+      <img class="img-fluid my-3 logotipo" src="./assets/images/coffe.png" alt="logotipo
+        coffee shop" width="100px" />
+        <h5>Coffee Shop</h5>
+      <p class="text-secondary">Transformando sua experiência pelo aroma
+        tentador e 
+        pelos sabores reconfortantes de nossos cafés.
+      </p>
+      <div class="logo-link container  d-flex justify-content-center 
+        align-items-center py-2">
+        <a href="">
+          <img class="m-3" src="./assets/icons/facebook.svg" 
+          alt="facebook logo">
+        <a href="">
+         <img class="m-3" src="./assets/icons/instagram.svg" 
+         alt="instagram logo">
+        </a>
+        <a href="https://wa.me/+551200000000" target="_blank">
+          <img class="m-3" src="./assets/icons/whatsapp.svg" 
+          alt="whatsapp logo">
+        </a>
+      </div>
+      <h4>Siga-nos nas nossas Redes Sociais</h4>    
+      <p class="mt-5">
+        © Copyright Coffee Shop 2024 |
+        Todos os direitos reservados.
+      </p>
+      <p class="text-secondary">
+        Criado by Luiz Fernando Castro de Souza
+      </p>
+    </footer>
+
+    <!--JS-->
+    <script     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"  integrity="sha384- 
+     C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>
