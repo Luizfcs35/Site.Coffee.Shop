@@ -85,7 +85,7 @@ Desafio concluído com uma breve experiência de como é utilizar o Bootstrap, a
 
 ## 7. link do Projeto Final
 
-☕🥐[Site Coffee Shop](https://luizfcs35.github.io/Site--Cafeteria-Com-Bootstrap/)🥐☕
+☕🥐[Site Coffee Shop](https://luizfcs35.github.io/Site.Coffee.Shop/)🥐☕
 
 ### Imagem deskstop
 
