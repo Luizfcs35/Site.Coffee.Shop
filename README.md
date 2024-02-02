@@ -1,17 +1,17 @@
 # Site Coffee Shop 
   ### Sumário
 
-- [1. Iniciando com Primeiro Framework em CSS](#1-iniciando-com-primeiro-framework-em-CSS:-Bootstrap💜)
+- [1. Iniciando com Primeiro Framework em CSS](#1-iniciando-com-primeiro-framework-em-css-bootstrap)
 - [2. Tecnologias e Frameworks](#2-tecnologias-e-frameworks)
 - [3. Inteligência Artificial](#3-inteligência-artificial)
-- [4. Imagens do Unsplash](#4-imagens-do-unsplash🖤)
+- [4. Imagens do Unsplash](#4-imagens-do-unsplash)
 - [5. Estrutura do Projeto](#5-estrutura-do-projeto)
-- [6. Conclusão sobre o Desafio (Bootstrap)](#6-conclusão-sobre-o-desafio-bootstrap🚀)
-- [7. link do Projeto Final](#7-link-do-projeto-final-🎯)
+- [6. Conclusão sobre o Desafio](#6-conclusão-sobre-o-desafio)
+- [7. Link do Projeto Final](#7-link-do-projeto-final)
 - [8. Contribuindo com o Backend](#8-contribuindo-com-o-backend)
-- [Informações Adicionais](#9-informações-adicionais)
+- [9. Informações Adicionais](#9-informacoes-adicionais)
 
-## 1. Iniciando com Primeiro Framework em CSS: Bootstrap💜
+## 1. Iniciando com Primeiro Framework em CSS: Bootstrap
 
 Desafio realizado no Módulo 3 do curso CSS3 da DIO, O projeto consiste na criação de um site de uma cafeteria (fictícia), utilizando o **Bootstrap** para estilizar a página com os principais componentes disponíveis e deixa-la responsiva. O usuário poderá visualizar os produtos disponíveis no **_Menu_**, **_Local da cafeteria_** ,além de outras informações da loja.
 
@@ -37,7 +37,7 @@ Para obter mais detalhes sobre o ChatGPT da OpenAI, consulte a [documentação o
 
 Mantenha a seção sobre a inteligência artificial do projeto atualizada à medida que o projeto evolui ou à medida que novas versões do ChatGPT são lançadas.
 
-## 4. Imagens do Unsplash🖤
+## 4. Imagens do Unsplash
 
 Este projeto utiliza imagens do Unsplash, um serviço de compartilhamento de fotos gratuitas e de alta qualidade.
 
@@ -77,13 +77,13 @@ Projeto Site Coffee Shop/
 ├── README.md
 ```
 
-## 6. Conclusão sobre o Desafio (Bootstrap)🚀
+## 6. Conclusão sobre o Desafio
 
 O Bootstrap provou ser uma ferramenta valiosa para o desenvolvimento de projetos web. Sua vasta biblioteca de componentes pré-construídos e sua abordagem centrada em grade facilitam a criação de layouts responsivos e agradáveis visualmente. Além disso, sua documentação abrangente e ativa comunidade de desenvolvedores tornam mais fácil aprender e aproveitar ao máximo o framework.
 
 Desafio concluído com uma breve experiência de como é utilizar o Bootstrap, aprendizado foi fundamental porém ótimo pois pode agregar mais conteúdos ao meu aprendizado e na minha jornada como DFE.
 
-## 7. link do Projeto Final 🎯
+## 7. link do Projeto Final
 
 ☕🥐[Site Coffee Shop](https://luizfcs35.github.io/Site--Cafeteria-Com-Bootstrap/)🥐☕
 
@@ -153,7 +153,7 @@ git push origin feature/novas-receitas
 
   - Depois que a pull request for revisada e aprovada, a sua contribuição será mesclada no projeto principal.
 
-## 9. **_Informações Adicionais_**
+## 9. Informações Adicionais
 
 ### Este projeto utiliza o Bootstrap para o frontend. Consulte o README principal para informações sobre a estrutura do projeto e como executar a aplicação.
 
