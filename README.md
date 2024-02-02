@@ -9,7 +9,7 @@
 - [6. Conclusão sobre o Desafio](#6-conclusão-sobre-o-desafio)
 - [7. Link do Projeto Final](#7-link-do-projeto-final)
 - [8. Contribuindo com o Backend](#8-contribuindo-com-o-backend)
-- [9. Informações Adicionais](#9-informacoes-adicionais)
+- [9. Informações Adicionais](#9-informações-adicionais)
 
 ## 1. Iniciando com Primeiro Framework em CSS: Bootstrap
 
